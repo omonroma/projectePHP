@@ -1,0 +1,28 @@
+1. Estructura de carpetes:
+
+	|-CONFIG
+	|
+	|
+	|-CONTROLLER (creaObjectes.php, php, js)
+	|
+	|
+	|-LIB
+	|
+	|
+	|-MODEL
+	|     |-DAO
+	|     |
+	|     |
+	|     |-BUSINESS 
+	|
+	|
+	|
+	|-VIEW (img, css, _form.php)
+	|
+
+
+2. funcions.php --> inserir a mètodes de clases
+3. Arreglar les classes: Transportista o vehicle i empresa.
+4. Try - Catch
+5. Login + sessió
+6. Navegació
