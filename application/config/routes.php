@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "inici";
+$route['default_controller'] = "form";
 $route['404_override'] = '';
 
 
