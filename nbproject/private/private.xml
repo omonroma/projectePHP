@@ -2,24 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="UF4-IntPOO-Herencia">
-            <file>file:/var/www/html/projecte/php/peu.php</file>
-            <file>file:/var/www/html/projecte/php/creaObjectes.php</file>
-            <file>file:/var/www/html/projecte/php/pagaments_form.php</file>
-            <file>file:/var/www/html/projecte/php/gestioVehicles_form.php</file>
-            <file>file:/var/www/html/projecte/php/gestioVehicles.php</file>
-            <file>file:/var/www/html/projecte/php/gestioTreballadors.php</file>
-            <file>file:/var/www/html/projecte/php/comandes_form.php</file>
-            <file>file:/var/www/html/projecte/php/gestioTreballadors_form.php</file>
-            <file>file:/var/www/html/projecte/php/treballadors_form.php</file>
-            <file>file:/var/www/html/projecte/php/cap.php</file>
-            <file>file:/var/www/html/projecte/php/treballadors.php</file>
-            <file>file:/var/www/html/projecte/index.php</file>
-            <file>file:/var/www/html/projecte/php/inici.php</file>
-            <file>file:/var/www/html/projecte/php/comandes.php</file>
-            <file>file:/var/www/html/projecte/php/pagaments.php</file>
+        <group>
+            <file>file:/home/drauta/Descargas/projecte/application/models/Transportista.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/models/Zona.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/models/Vehicle.php</file>
+            <file>file:/home/drauta/Descargas/projecte/index.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/models/ArOsTrans.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/models/Comanda.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/models/index.html</file>
+            <file>file:/home/drauta/Descargas/projecte/application/controllers/funcions.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/controllers/funcions_oscar.php</file>
+            <file>file:/home/drauta/Descargas/projecte/application/controllers/funcions_arnau.php</file>
         </group>
-        <group name="UF4-IntPOO-Abstraccio"/>
-        <group/>
     </open-files>
 </project-private>
