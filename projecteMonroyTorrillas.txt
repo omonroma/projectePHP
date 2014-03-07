@@ -1,5 +1,5 @@
 1. Estructura de carpetes:
-
+waweqwewq
 	|-CONFIG
 	|
 	|
