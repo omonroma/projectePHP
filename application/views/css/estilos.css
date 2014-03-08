@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #E6E6E6;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*Contingut
+ * Tot el cos de la pàgina*/
+	#contingut {
+		width: 50%;
+		margin-left: 25%;
+		background-color: #D8D8D8;
+		padding: 1%;
+		border: 2px solid #A4A4A4;
+		box-shadow: 2px 2px 2px 2px #BDBDBD;
+	}
+	
+	#contingut h1 {
+		color: #0B610B;
+	}
+	
+	#contingut h2 {
+		color: #0B610B;
+		font-style: italic;
+		text-decoration: underline;
+	}
+
+/*Menu*/
+	#imgCap{
+		
+		margin: 0 90%;
+	}
+
+	.menu{
+		list-style:none;
+		padding:0px;
+		margin:0px;
+	}
+	.menu li{
+		margin:0px;
+		padding:0px;
+		float:left;
+		position:relative;
+		box-shadow: 2px 2px 4px 1px #000;	
+	}
+	.menu li a{
+		display: block;
+		width: 100px;
+		height: 30px;
+		padding: 6px;
+		line-height:30px;
+		text-decoration: none;
+		text-align: center;
+		color: #D8D8D8;
+		background-color: #2E2E2E;
+		position: relative;
+		border-left: 2px solid #333;
+	 
+	}
+	.menu li a:hover{
+		color: #0B610B;
+		background-color:#848484;
+	}
+	
+	.menu ul{
+		font-size: 10px;
+		position:absolute;
+		left:1px;
+		top:42px;
+		margin:0px;
+		list-style:none;
+		padding:0px;
+		opacity:0;
+		visibility:hidden;	
+	}
+	.menu ul li a{
+		border-bottom:2px solid #333;
+		border-left:none;
+		display:block;
+		text-align:left;
+	}
+
+	.menu li:hover ul{
+		opacity:1;
+		visibility:visible;
+	}
+
+/*Estils formulari*/
+	#campForm {
+		background: -moz-repeating-linear-gradient(-45deg,#D8D8D8, #E6E6E6 3px, #eee 2px, #eee 2px);
+		background: -webkit-repeating-linear-gradient(-45deg, #D8D8D8, #E6E6E6 3px, #eee 2px, #eee 2px);
+		background-size: 100% 100%;
+		border-color: transparent;
+	}
+	
+	#nomCamp{
+		text-align: center;
+		color: #D8D8D8;
+		background-color: #2E2E2E;
+		border-top-left-radius: 10%;
+		border-bottom-left-radius: 10%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	#respostaCamp{
+		color: #A4A4A4;
+		background-color:#BDBDBD;
+		border-top-right-radius: 10%;
+		border-bottom-right-radius: 10%;
+	}
+
+	#submitOk{
+		color: #173B0B;
+		border-radius: 20%;
+		background-image: -webkit-linear-gradient(bottom, #04B404 0%, #58FA58 100%);
+		border-color: #31B404;
+		box-shadow: 2px 2px 2px 1px #BDBDBD;
+		font-weight: bold;		
+		float: right;
+	}
+	
+	#submitOk:hover{
+		color: #101907;
+		border-radius: 20%;
+		background-image: -webkit-linear-gradient(bottom,  #58FA58 0%, #04B404 100%);
+		border-color: #31B404;
+		box-shadow: 2px 2px 2px 1px #BDBDBD;
+		font-weight: bold;	
+	}
+
+/*Estils errors*/
+
+	#errors {
+		color: #DF3A01;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 13;
+	}
+	
+	#confirmaComanda, treballadorConfirmat {
+		margin: 0 30%;
+		width: 35%;
+		background-color: #F7D358;
+		border: 3px solid #DBA901;
+		border-top: 7px solid #DF0101;
+		text-align: center;
+		
+	}
+	
+	#confirmaComanda hr {
+		margin: 2%;
+		border-color: #FA5858;
+	}
