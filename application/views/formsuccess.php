@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>My Form</title>
+    <title>Formulari</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     </head>
 <body>
 
-<h3>Your form was successfully submitted!</h3>
+<h3>T'has validat correctament!</h3>
 
-<p><?php echo anchor('form', 'Try it again!'); ?></p>
+<p><?php echo anchor('form', 'Torna-ho a intentar!'); ?></p>
 
 </body>
 </html>
