@@ -38,6 +38,41 @@ class Login extends CI_Controller
         }
     }
 
+    public function check()
+    {           
+        $this->load->library('form_validation');
+        $this->form_validation->set_rules('login', 'Login', 'required|max_length[40]|valid_email');
+        $this->form_validation->set_rules('password', 'Password', 'required|max_length[20]|alpha_numeric');
+
+        if ($this->form_validation->run() == FALSE) 
+            redirect('login/error');
+        else 
+        {
+            $is_user = $this->user_model->is($this->input->post('login'), $this->input->post('pwd'));
+            
+            if ($is_user) 
+            {
+                $login = $this->input->post('login');
+                $id = $this->user_model->get_id($login);
+                
+                $data = array(
+                    'login' => $login,
+                    'id' => $id,
+                    'is_logged_in' => TRUE,
+                    'is_admin' => FALSE
+                );
+                $this->session->set_userdata($data);
+                
+                redirect('site');
+            } 
+            else 
+            {
+                redirect('login/error');
+            }
+        }
+    }
+    
+    
     public function new_user()
     {
         if($this->input->post('token') && $this->input->post('token') == $this->session->userdata('token'))
