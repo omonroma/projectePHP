@@ -15,14 +15,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Inici</a></li>
+        <li><a href="<?=base_url()?>">Inici</a></li>
         <li><a href="#">Comandes</a></li>
           <li><a href="#">Pagaments</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gestions<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Gestió de treballadors</a></li>
-            <li><a href="#">Gestió de vehicles</a></li>
+            <li><a href="#">Gestió de Treballadors</a></li>
+            <li><a href="#">Gestió de Vehicles</a></li>
+            <li><a href="<?=base_url()?>novacomanda/">Gestió de Comandes</a></li>
           </ul>
         </li>
       </ul>
