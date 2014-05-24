@@ -6,7 +6,7 @@
  *
  * @package		CodeIgniter
  * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
+ * @copyright           Copyright (c) 2008 - 2011, EllisLab, Inc.
  * @license		http://codeigniter.com/user_guide/license.html
  * @link		http://codeigniter.com
  * @since		Version 1.0
@@ -20,11 +20,11 @@
  *
  * This class enables the creation of calendars
  *
- * @package		CodeIgniter
- * @subpackage	Libraries
- * @category	Libraries
- * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/calendar.html
+ * @package         CodeIgniter
+ * @subpackage      Libraries
+ * @category        Libraries
+ * @author          ExpressionEngine Dev Team
+ * @link            http://codeigniter.com/user_guide/libraries/calendar.html
  */
 class CI_Calendar {
 
